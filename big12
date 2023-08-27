@@ -1,7 +1,7 @@
 -- check if executor supports darkyyware
 local httpget = request or http_request or (http and http.request) or (syn and syn.request)
 if httpget and hookmetamethod and getnamecallmethod and Drawing and hookfunction and getconnections and getupvalue and getsenv and setfpscap then
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/53db65a6472cddecdbdc4f5445993466.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LUAGAMERS/RACE-CLICKER-GOD/main/xd132"))()
 else
     local Converted = {
         ["ScreenGui"] = Instance.new("ScreenGui");
